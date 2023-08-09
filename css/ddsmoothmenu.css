@@ -119,6 +119,9 @@ height: 0;
 .toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
 opacity: 0.5;
 }
+.logo {
+	width: 100px; height: 120px; margin-top: 20px;
+}
 .redes-sociais ul li 
 {
 	margin-left: 30px;
@@ -126,16 +129,16 @@ opacity: 0.5;
 	float: left;
 	list-style: none;
 }
-.redes-sociais 
-{
-    width: 25%;
-    float: right;
+.title-logo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-top: 20px;
 }
-.logo 
-{
-    float: left;
-    padding: 6px;
-    width: 20%;
+.title-logo--title {
+	font-weight: bold;
+	font-size: 40px;
 }
-
+.title-logo--subtitle {
+	font-size: 18px;
+}
 /* menu */

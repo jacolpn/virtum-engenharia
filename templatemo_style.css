@@ -99,6 +99,9 @@ a.header { display: block; font-weight: 700 }
 
 #templatemo_header {
 	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #templatemo_menu {
