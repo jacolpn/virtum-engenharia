@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'incompleta';
+    src: url('../fonts/IncompleetaRegular.woff') format('woff'),
+         url('../fonts/IncompleetaRegular.woff2') format('woff2'),
+         url('../fonts/IncompleetaRegular.eot') format('eot'),
+         url('../fonts/IncompleetaRegular.ttf') format('truetype');
+}
+
 .ddsmoothmenu{
 }
 
@@ -120,7 +128,7 @@ height: 0;
 opacity: 0.5;
 }
 .logo {
-	width: 100px; height: 120px; margin-top: 20px;
+	width: 150px; height: 120px; margin-top: 20px;
 }
 .redes-sociais ul li 
 {
@@ -130,15 +138,16 @@ opacity: 0.5;
 	list-style: none;
 }
 .title-logo {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
 	text-align: center;
 	padding-top: 20px;
 }
 .title-logo--title {
+	font-family: 'incompleta', 'Fallback', 'sans-serif' !important;
 	font-weight: bold;
 	font-size: 40px;
 }
-.title-logo--subtitle {
+.title-logo--subtitle {	
+	font-family: 'incompleta', 'Fallback', 'sans-serif' !important;
 	font-size: 18px;
 }
 /* menu */
